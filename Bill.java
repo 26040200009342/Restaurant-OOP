@@ -16,16 +16,28 @@ public class Bill implements Date{
 	    dateOfTheEvent(1998,20,05);
 	}
 	
-	public double getCost() { return cost; }
-	public void setCost(double cost) { this.cost = cost; }
+	public double getCost() {
+		return cost;
+	}
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
 	
 	public int getBillID() { return billID;	}
-	public void setBillID(int billID) { this.billID = billID; }
+	public void setBillID(int billID) {
+		this.billID = billID;
+	}
 
 	@Override
 	public void dateOfTheEvent(int year, int month, int day) 
 	{
 		System.out.print("Date of bill = " + day + "." + month + "." + year);
 		
+	}
+
+	private class Integer {
+		public Integer(int i) {
+			i++;
+		}
 	}
 }
